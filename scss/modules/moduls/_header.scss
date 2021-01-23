@@ -1,0 +1,21 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    
+
+    &-menu{
+          width: 350px;
+    }
+
+    &-ListItem{
+         display: flex;
+         justify-content: space-between;
+    }
+    &-Item{
+          list-style: none;
+    }
+    &-link{
+          text-decoration: none;
+          color: $primer-color;
+    }
+}

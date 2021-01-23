@@ -1,0 +1,48 @@
+.Footer{
+     &-arriba{
+         display: flex;
+         @include mq(670px){
+            flex-direction: column;
+        }
+        }
+     &-izqui{
+         width: 50%;
+         color: $tercer-color;
+         margin-top: 40px;
+         @include mq(670px){
+            width: 100%;
+        }
+        }
+     
+     &-dere{
+         width: 50%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 40px;
+         @include mq(670px){
+            flex-direction: column;
+        }
+    }
+    &-linea{
+        background:$tercer-color ;
+    }
+    &-abajo{
+        display: flex;
+        justify-content: space-around;
+        color: $tercer-color;
+        @include mq(670px){
+            flex-direction: column;
+        }
+    }
+    &-pr1{
+        width: 30%;
+       
+        @include mq(670px){
+            width: 50%;
+        }
+        
+    }
+  
+}
+     

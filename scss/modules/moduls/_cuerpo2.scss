@@ -1,0 +1,30 @@
+.cuerpo2{
+    display: flex;
+    flex-direction: column;
+    
+       &-hijo{
+           display: flex;
+           justify-content: space-between;
+           margin-top: 20px;  
+           @include mq(670px){
+            flex-direction: column;
+            width: 100%;
+        }
+       }
+
+       &-imge{
+           width: 37%;
+           @include mq(670px){
+            flex-direction: column;
+            width: 100%;
+        }
+       }
+       &-conte{
+         width: 56%;
+         @include mq(670px){
+            flex-direction: column;
+            width: 100%;
+        }
+       }
+
+}

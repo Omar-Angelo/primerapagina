@@ -1,0 +1,53 @@
+.section{
+    &-titulo{
+     color: $segundo-color;
+     font-size: $tati;
+    }
+    &-fin{
+        text-align: right;
+        color: $segundo-color;
+    }
+}
+
+.barra{
+    display: flex;
+    
+    background-color:$color-barra;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+.icono{
+    margin: 10px;
+}
+
+.parte1{
+    display: flex;
+    justify-content: space-between;
+    @include mq(670px){
+        flex-direction: column-reverse;
+
+    }
+}
+.containerhi{
+    width: 50%;
+    margin: 10px;
+    @include mq(670px){
+        width: 100%;
+    }
+}
+.containerhi2{
+    width: 28%;
+    margin: 5px;
+    @include mq(670px){
+        width: 100%;
+    }
+}
+
+.parte2{
+    display: flex;
+    justify-content: space-between;
+    @include mq(670px){
+        flex-direction: column;
+    }
+}
